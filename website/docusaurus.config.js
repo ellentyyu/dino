@@ -55,7 +55,10 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+            require.resolve('./src/css/custom.css'),
+            require.resolve('./src/scss/all.scss')
+        ],
         },
       }),
     ],
@@ -142,6 +145,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
     }),
+    plugins: ['docusaurus-plugin-sass'],
 };
 
 module.exports = config;
