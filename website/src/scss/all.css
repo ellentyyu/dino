@@ -1,4 +1,12 @@
+html.blog-wrapper h1 {
+  font-size: 40px;
+}
+
 html.blog-wrapper h2 {
   font-size: 32px;
+}
+
+html.blog-wrapper h2 a {
+  color: black;
 }
 /*# sourceMappingURL=all.css.map */

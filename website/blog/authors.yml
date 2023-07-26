@@ -15,3 +15,13 @@ slorber:
   title: Docusaurus maintainer
   url: https://sebastienlorber.com
   image_url: https://github.com/slorber.png
+
+monkey:
+  name: 猴子
+  title: 大夜班剪票員
+  image_url: https://store.waitbutwhy.com/cdn/shop/products/IGMonkey-1-1_800x.jpg?v=1499956535
+
+teacher:
+  name: 老師
+  title: 放暑假中
+  image_url: https://clipart-library.com/coloring/MKTnx68iq.jpg
