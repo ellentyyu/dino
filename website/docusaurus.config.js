@@ -45,7 +45,7 @@ const config = {
         //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-            postsPerPage: 2,
+            postsPerPage: 10,
             showReadingTime: true,
             // blogSidebarTitle: 'All posts',
             // blogSidebarCount: 'ALL',
