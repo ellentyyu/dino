@@ -4,9 +4,9 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here.   // #2e8555; */
+/* You can override the default Infima variables here.   // #2e8555;  32178d*/
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #34548f;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;

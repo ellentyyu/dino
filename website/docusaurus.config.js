@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Hi!',
   tagline: 'bye~',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/stroopwafel-solid.svg',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
