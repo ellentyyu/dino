@@ -52,11 +52,13 @@ function Feature({Svg, title, description}) {
 export default function HomepageFeatures() {
   return (
     <section className={`${styles.features} features`}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+      <div className="container features__container">
+        <div className="features__wrapper">
+          <div className="row features__row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

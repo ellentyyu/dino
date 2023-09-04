@@ -1,9 +1,49 @@
 .hero {
     color: #191919;
     background-color: #e9e4de;
+
+    // &__subtitle {
+    //     border-top: #191919 2px solid;
+    //     border-bottom: #191919 2px solid;
+    // }
+}
+.main-wrapper {
+    .features {
+        padding: 0 30px;
+       // border-top: #191919 2px solid;
+        background-color: #e9e4de;
+
+        &__container {
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+
+        &__wrapper {
+            padding: 36px 0;
+            border-top: #191919 2px solid;
+        }
+
+        &__row {
+            justify-content: space-between;
+            margin: 0;
+
+            .col[class*='col--'] {
+                flex: 0 1 auto;
+            }
+        }
+    }
+
+    .feature {
+        width: 32%;
+        padding: 36px 0;
+        // border: #191919 2px solid;
+        // border-top-left-radius: 50px;
+        // border-bottom-right-radius: 50px;
+        // border-top-right-radius: 30px;
+        // border-bottom-left-radius: 30px;
+       // border-radius: 50px;
+    }
 }
 
-.features {
-    border-top: #191919 2px solid;
-    background-color: #e9e4de;
-}
