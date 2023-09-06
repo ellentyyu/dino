@@ -19,9 +19,9 @@ slorber:
 monkey:
   name: 猴子
   title: 午夜場剪票員
-  image_url: https://store.waitbutwhy.com/cdn/shop/products/IGMonkey-1-1_800x.jpg?v=1499956535
+  image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/monkey.png?raw=true
 
 teacher:
   name: 老師
   title: 放暑假中
-  image_url: https://clipart-library.com/coloring/MKTnx68iq.jpg
+  image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/homer-crop.jpg?raw=true
