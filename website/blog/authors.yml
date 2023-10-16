@@ -22,6 +22,6 @@ monkey:
   image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/monkey.png?raw=true
 
 teacher:
-  name: 老師
-  title: 放暑假中
+  name: 念英文的人
+  title: 秋天掃落葉
   image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/homer-crop.jpg?raw=true
