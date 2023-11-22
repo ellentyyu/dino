@@ -1,17 +1,16 @@
+.plugin-pages {
+    background-color: #1a1c19;
+    color: #333;  // 暫時
+}
 .hero {
     color: #191919;
     background-color: #e9e4de;
-
-    // &__subtitle {
-    //     border-top: #191919 2px solid;
-    //     border-bottom: #191919 2px solid;
-    // }
+    background-color: #333;
 }
 .main-wrapper {
     .features {
         padding: 0 30px;
-       // border-top: #191919 2px solid;
-        background-color: #e9e4de;
+      //  background-color: #e9e4de;
 
         &__container {
             max-width: 1320px;

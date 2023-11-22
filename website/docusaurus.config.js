@@ -72,8 +72,8 @@ const config = {
       navbar: {
         title: 'My Site',
         logo: {
-          width: 28,
-          height: 28,
+          width: 48,
+          height: 48,
           alt: 'My Site Logo',
           src: 'img/stroopwafel-solid.svg',
         },
