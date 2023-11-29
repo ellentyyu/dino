@@ -1,8 +1,12 @@
 .navbar {
+    width: 1320px;
+    height: auto;
+    margin: 0 auto;
     padding: 8px;
     // margin: 8px;
     // padding: 3px;
     background-color: transparent;
+    box-shadow: none;
 
     &__inner {
         height: 56px;
