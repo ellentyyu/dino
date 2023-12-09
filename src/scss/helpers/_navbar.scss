@@ -1,5 +1,6 @@
 .navbar {
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     height: auto;
     margin: 0 auto;
     padding: 8px;
@@ -11,13 +12,13 @@
     &__inner {
         height: 56px;
         padding: 3px;
-        border: #e0d6c2 1px solid;
+        border: $primary-beige 1px solid;
         border-radius: 28px;
     }
 
     &__brand {
         height: 100%;
-        margin-right: 3px;
+        margin-right: 0;
     }
 
     &__logo {
@@ -29,12 +30,22 @@
 
     &__title,
     &__item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 100%;
+        margin-right: 3px;
         padding: 0 40px;
-        border: #e0d6c2 1px solid;
+        border: $primary-beige 1px solid;
         border-radius: 30px;
         font-size: 14px;
         line-height: 20px;
-        color: #e0d6c2;
+        color: $primary-beige;
+        transition: all .3s;
+
+        &:hover {
+            background-color: $primary-beige;
+            color: $primary-dark;
+        }
     }
 }

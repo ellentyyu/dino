@@ -1,3 +1,8 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
 html.blog-wrapper h1 {
   font-size: 40px;
 }
@@ -9,3 +14,117 @@ html.blog-wrapper h2 {
 html.blog-wrapper h2 a {
   color: black;
 }
+
+.plugin-pages {
+  background-color: #1a1c19;
+  color: #333;
+}
+
+.hero {
+  color: #191919;
+  background-color: #e9e4de;
+  background-color: #333;
+}
+
+.main-wrapper .features {
+  padding: 0 30px;
+}
+
+.main-wrapper .features__container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-wrapper .features__wrapper {
+  padding: 36px 0;
+  border-top: #191919 2px solid;
+}
+
+.main-wrapper .features__row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.main-wrapper .features__row .col[class*='col--'] {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+}
+
+.main-wrapper .feature {
+  width: 32%;
+  padding: 36px 0;
+}
+
+html.docs-wrapper main h1 {
+  font-size: 32px;
+}
+
+.navbar {
+  width: 100%;
+  max-width: 1320px;
+  height: auto;
+  margin: 0 auto;
+  padding: 8px;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar__inner {
+  height: 56px;
+  padding: 3px;
+  border: #e0d6c2 1px solid;
+  border-radius: 28px;
+}
+
+.navbar__brand {
+  height: 100%;
+  margin-right: 0;
+}
+
+.navbar__logo {
+  height: 100%;
+  width: 48px;
+  height: 48px;
+  margin-right: 3px;
+}
+
+.navbar__title, .navbar__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-right: 3px;
+  padding: 0 40px;
+  border: #e0d6c2 1px solid;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #e0d6c2;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.navbar__title:hover, .navbar__item:hover {
+  background-color: #e0d6c2;
+  color: #1a1c19;
+}
+
+.block {
+  color: #e0d6c2;
+}
+
+.block p {
+  font-size: 50px;
+}
+/*# sourceMappingURL=all.css.map */
