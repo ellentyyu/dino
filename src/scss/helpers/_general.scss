@@ -1,7 +1,30 @@
 $primary-dark: #1a1c19;
 $primary-beige: #e0d6c2;
+$primary-olive: #8f8868;
+$text-dark: #342415;
 
 .container {
     max-width: 1320px;
     margin: 0 auto;
+}
+
+.d-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.w-sm {
+    width: 33%;
+}
+
+.w-md {
+    width: 66%;
+}
+
+.bg-beige {
+    background-color: $primary-beige;
+}
+
+.bg-olive {
+    background-color: $primary-olive;
 }
