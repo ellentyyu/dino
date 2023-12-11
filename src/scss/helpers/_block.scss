@@ -3,7 +3,7 @@
 
     &__card {
         width: 100%;
-        padding: 24px;
+        padding: 30px;
         border-radius: 30px;
         color: $text-dark;
     }
@@ -19,6 +19,24 @@
 
     &__title {
         margin: 24px 0;
+        font-size: 28px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.book {
+    margin-bottom: 8px;
+
+    &__body {
+        margin-right: 16px;
+    }
+
+    &__img {
+        width: 24%;
+        height: 250px;
+        border-radius: 18px;
+        flex-shrink: 0;
+        object-fit: cover;
+        object-position: center;
     }
 }
