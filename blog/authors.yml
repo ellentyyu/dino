@@ -19,9 +19,9 @@ slorber:
 monkey:
   name: 猴子
   title: 午夜場剪票員
-  image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/monkey.png?raw=true
+  image_url: https://github.com/ellentyyu/dino/blob/main/static/img/monkey.png?raw=true
 
 teacher:
   name: 念英文的人
   title: 秋天掃落葉
-  image_url: https://github.com/ellentyyu/dino/blob/main/website/static/img/homer-crop.jpg?raw=true
+  image_url: https://github.com/ellentyyu/dino/blob/main/static/img/homer-crop.jpg?raw=true
