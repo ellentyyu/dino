@@ -1,9 +1,0 @@
-{
-    "label": "讀書",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "slug": "/category/read",
-      "description": "閱讀中值得記下來的片段。"
-    }
-  }
