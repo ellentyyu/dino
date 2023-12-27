@@ -2,7 +2,7 @@
 slug: eng01
 title: '01'
 authors: [teacher]
-tags: [英文筆記]
+tags: [可能用不到的英文筆記]
 ---
 
 每次搭捷運看到車廂裡的單字壁紙([往下滑有圖](https://www.metro.taipei/cp.aspx?n=35DB194B63AC45CF))，都覺得「插畫真可愛，但這樣背單字...英文會越來越差喔 (壞心)。」
