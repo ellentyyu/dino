@@ -7,7 +7,7 @@ import BlogPostItem from '@theme/BlogPostItem';
 import BlogPostPaginator from '@theme/BlogPostPaginator';
 import BlogPostPageMetadata from '@theme/BlogPostPage/Metadata';
 import TOC from '@theme/TOC';
-import Giscus from '@giscus/react';
+// import Giscus from '@giscus/react';
 
 function BlogPostPageContent({sidebar, children}) {
   const {metadata, toc} = useBlogPost();
@@ -35,21 +35,6 @@ function BlogPostPageContent({sidebar, children}) {
       {(nextItem || prevItem) && (
         <BlogPostPaginator nextItem={nextItem} prevItem={prevItem} />
       )}
-      <br></br>       
-        <Giscus       
-        id="comments"       
-        repo="ellentyyu/dino"
-        repoId="R_kgDOJ3b-4w"       
-        category="General"       
-        categoryId="DIC_kwDOJ3b-484CXztb"
-        mapping="pathname"       
-        reactionsEnabled="1"       
-        emitMetadata="0"       
-        inputPosition="top"       
-        theme='preferred_color_scheme'       
-        lang="en"       
-        loading="lazy"       
-        />
     </BlogLayout>
   );
 }
@@ -70,3 +55,21 @@ export default function BlogPostPage(props) {
     </BlogPostProvider>
   );
 }
+
+
+
+{/* <br></br>       
+<Giscus       
+id="comments"       
+repo="ellentyyu/dino"
+repoId="R_kgDOJ3b-4w"       
+category="General"       
+categoryId="DIC_kwDOJ3b-484CXztb"
+mapping="pathname"       
+reactionsEnabled="1"       
+emitMetadata="0"       
+inputPosition="top"       
+theme='preferred_color_scheme'       
+lang="en"       
+loading="lazy"       
+/> */}

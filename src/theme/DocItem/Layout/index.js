@@ -11,7 +11,7 @@ import DocItemTOCDesktop from '@theme/DocItem/TOC/Desktop';
 import DocItemContent from '@theme/DocItem/Content';
 import DocBreadcrumbs from '@theme/DocBreadcrumbs';
 import styles from './styles.module.css';
-import Giscus from '@giscus/react';
+// import Giscus from '@giscus/react';
 
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
@@ -48,23 +48,26 @@ export default function DocItemLayout({children}) {
           </article>
           <DocItemPaginator />
         </div>
-        <br></br>       
-        <Giscus       
-        id="comments"       
-        repo="ellentyyu/dino"
-        repoId="R_kgDOJ3b-4w"       
-        category="General"       
-        categoryId="DIC_kwDOJ3b-484CXztb"
-        mapping="pathname"       
-        reactionsEnabled="1"       
-        emitMetadata="0"       
-        inputPosition="top"       
-        theme="preferred_color_scheme"       
-        lang="en"       
-        loading="lazy"       
-        />
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>
   );
 }
+
+
+
+{/* <br></br>       
+<Giscus       
+id="comments"       
+repo="ellentyyu/dino"
+repoId="R_kgDOJ3b-4w"       
+category="General"       
+categoryId="DIC_kwDOJ3b-484CXztb"
+mapping="pathname"       
+reactionsEnabled="1"       
+emitMetadata="0"       
+inputPosition="top"       
+theme="preferred_color_scheme"       
+lang="en"       
+loading="lazy"       
+/> */}
